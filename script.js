@@ -1,4 +1,3 @@
-document.getElementById("app").innerHTML = "<h1>Surf Explorer Loaded</h1>";
 function exportToExcelFile() {
     const percentage = Math.round((gameState.score / gameState.totalScore) * 100);
     const now = new Date();
