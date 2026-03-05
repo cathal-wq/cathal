@@ -10,6 +10,15 @@ function exportToExcelFile() {
         second: '2-digit'
     });
 
+    const app = document.getElementById("app");
+
+app.innerHTML = `
+<div class="screen active" id="startScreen">
+  <h1>Surf Explorer</h1>
+  <button id="startBtn">Start Game</button>
+</div>
+`;
+    
     // Create data array
     const data = [
         ['Student Geography Quiz Results - Coastal Erosion'],
